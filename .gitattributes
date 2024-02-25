@@ -1,1 +1,7 @@
+# .gitattributes
+
+# Dosyaların LF karakterleri kullanılacak
+* text=auto
+
+# Ancak .po uzantılı dosyaların CRLF karakterleri kullanılacak
 *.po text eol=crlf
